@@ -7,16 +7,16 @@ from httplib2 import Http
 
 class GoogleChatHandler(logging.Handler):
     """
-    A handler class which sends an Google Chat message for each logging event.
+    A google_chat_handler class which sends an Google Chat message for each logging event.
     """
     def __init__(self, webhook_url, threaded=False, threaded_workers=1):
         """
-        Initialize the handler.
+        Initialize the google_chat_handler.
 
         webhook_url: Add a webhook url to the google chat and provide the url
         into this parameter
 
-        threaded: default value -> false. As the handler is pushing the logs
+        threaded: default value -> false. As the google_chat_handler is pushing the logs
         to Google Chat that might take time so this flag will make the process
         threaded
 

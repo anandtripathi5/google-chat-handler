@@ -2,7 +2,7 @@ from setuptools import setup
 
 version = '1.0.0'
 
-setup(name='handler',
+setup(name='google_chat_handler',
       version=version,
       description="log data in google chat",
       long_description=open('README.md').read(),
@@ -11,7 +11,7 @@ setup(name='handler',
       author='Anand Tripathi',
       author_email='anand.tripathi507@gmail.com',
       url='https://github.com/anandtripathi5/google-chat-handler.git',
-      packages=['handler'],
+      packages=['google_chat_handler'],
       install_requires=[
           'httplib2',
       ],

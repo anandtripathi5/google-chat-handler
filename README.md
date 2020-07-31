@@ -21,7 +21,7 @@ Installation Instruction!
 # Usage
 
  1. Import Google Chat Handler
-	 -  `from google_chat import GoogleChatHandler`
+	 -  `from google_chat_handler import GoogleChatHandler`
 
  2. Initialize the chat handler
      -  `handler = GoogleChatHandler('https://chat.googleapis.com/v1/spaces/xxxxxxx')`
@@ -39,7 +39,7 @@ Installation Instruction!
 
 ```python
 import logging
-from handler import GoogleChatHandler
+from google_chat_handler import GoogleChatHandler
 # logger of your project
 
 # Get default logger
@@ -47,11 +47,11 @@ logger = logging.getLogger()
 # set default level of the logger
 logger.setLevel(logging.DEBUG)
 
-# Create handler for google chat handler
+# Create google_chat_handler for google chat google_chat_handler
 handler = GoogleChatHandler(webhook_url="https://chat.googleapis.com/v1/spaces/XXXXXXXXX")
-# Set level of the Google chat handler for which loglevel we have to send logs to google
+# Set level of the Google chat google_chat_handler for which loglevel we have to send logs to google
 handler.setLevel(logging.ERROR)
-# Add the handler to the logger
+# Add the google_chat_handler to the logger
 logger.addHandler(handler)
 
 logger.info("normal logger info")
