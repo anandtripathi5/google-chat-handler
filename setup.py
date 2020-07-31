@@ -1,11 +1,12 @@
 from setuptools import setup
 
-version = '1.0.0'
+version = '1.0.1'
 
 setup(name='google_chat_handler',
       version=version,
-      description="log data in google chat",
+      description="Log data in google chat",
       long_description=open('README.md').read(),
+      long_description_content_type="text/markdown",
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='Google Chat Handler, google chat logging',
       author='Anand Tripathi',

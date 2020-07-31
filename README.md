@@ -9,7 +9,7 @@ Installation Instruction!
 ===================
 
 >- Activate your Virtual Environment.
->- `pip install google-chat-handler`
+>- `pip install google_chat_handler`
 
 ----------
 
