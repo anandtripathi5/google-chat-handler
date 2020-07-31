@@ -10,7 +10,7 @@ setup(name='handler',
       keywords='Google Chat Handler, google chat logging',
       author='Anand Tripathi',
       author_email='anand.tripathi507@gmail.com',
-      url='https://github.com/anandtripathi5/function_logger',
+      url='https://github.com/anandtripathi5/google-chat-handler.git',
       packages=['handler'],
       install_requires=[
           'httplib2',
