@@ -1,0 +1,24 @@
+.. _changelog:
+
+================
+ Change history
+================
+
+This document contains change notes for bugfix releases in
+the x.x.x series,
+
+.. _version-1.0.0:
+
+1.0.0
+=====
+:release-date: 2020-07-31 10:00 AM IST
+:release-by: Anand Tripathi
+
+
+- **Introduction to Google Chat Handler**:
+    1. Google chat handler is responsible for pushing all the logs to google chat
+    using a webhook url.
+
+
+
+
